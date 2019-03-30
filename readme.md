@@ -33,7 +33,7 @@ GET http://www.funnymay.com/analytics/signal_api.php
 Parameter |Type     |Mandatory |Description
 ----------|---------|----------|--------------------
 s         |STRING   |YES       |Signal type
-p         |STRING   |NO        |Addition parameter
+p         |STRING   |NO        |Optional parameter
 
 #### Signal types:
 Value           |Description
