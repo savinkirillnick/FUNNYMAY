@@ -56,6 +56,7 @@ http://www.funnymay.com/analytics/signal_api.php?s=gainer
   "status":1,
   "data": [
     {
+      "signal": "Gainer",
       "symbol":"RCNBTC",
       "price":0.00123456,
       "change":4.123
