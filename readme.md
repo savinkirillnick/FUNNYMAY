@@ -3,7 +3,7 @@ FUNNYMAY API v1.0 (2019-03-30)
 General API Information
 =====================
 
-* The base endpoint is: https://www.funnymay.com/analytics/
+* The base endpoint is: https://www.funnymay.com/api/
 * All endpoints return either a JSON object or array.
 * Any endpoint can return an ERROR; the error payload is as follows:
 
@@ -26,7 +26,7 @@ SIGNALS API
 
 ### REQUEST
 ```
-GET http://www.funnymay.com/analytics/signal_api.php
+GET http://www.funnymay.com/api/signal_api.php
 ```
 
 ### PARAMETERS
@@ -47,7 +47,7 @@ sma50xsma200    |Crosses of SMA50 and SMA200
 
 ### EXAMPLE
 ```
-http://www.funnymay.com/analytics/signal_api.php?s=gainer
+http://www.funnymay.com/api/signal_api.php?s=gainer
 ```
 
 ### RESPONSE
